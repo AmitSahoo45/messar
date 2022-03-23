@@ -1,22 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+:root {
+    --Licorice: 'Licorice', cursive;
+    --Montserrat: 'Montserrat', sans-serif;
+
+    --color-1: #FFFBE9;
+    --color-2: #E3CAA5;
+    --color-3: #FAEDF0;
+    --color-4: #CEAB93;
+    --color-5: #AD8B73;
+
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
 
 .App {
-  min-height: 100vh;
-  display: flex;
-  background-image: url("./background.png");
-  background-position: center;
-  background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    background: url(./background.jpg) center center/cover no-repeat;
 }
 
 ::-webkit-scrollbar {
-  width: 0px;
+    width: 0px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(136, 136, 136, 0.281);
+    background: rgba(136, 136, 136, 0.281);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+    background: #555;
 }

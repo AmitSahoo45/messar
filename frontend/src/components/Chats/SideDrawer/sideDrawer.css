@@ -1,0 +1,32 @@
+.parent-box {
+    padding: 0.5em;
+}
+
+.sideDrawer {
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E3CAA5;
+    border: 1px solid #7a7a7ab6;
+    width: 100%;
+    padding: 0.5em 1em;
+    /* margin: 0.5em 0.5em; */
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.sideDrawer-header {
+    font-family: 'Licorice', cursive;
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.drawer-body{
+    display: flex;
+    padding-bottom: 5px;
+}

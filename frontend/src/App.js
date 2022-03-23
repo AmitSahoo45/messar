@@ -1,13 +1,14 @@
-import "./App.css";
-import Homepage from "./Pages/Homepage";
-import { Route } from "react-router-dom";
-import Chatpage from "./Pages/Chatpage";
+import './App.css';
+import { Button } from '@chakra-ui/react'
+import { Route } from 'react-router-dom';
+import Homepage from './Pages/Homepage';
+import Chatpage from './Pages/Chatpage';
 
 function App() {
   return (
     <div className="App">
-      <Route path="/" component={Homepage} exact />
-      <Route path="/chats" component={Chatpage} />
+      <Route path='/' component={Homepage} exact/>
+      <Route path='/chats' component={Chatpage} />
     </div>
   );
 }
