@@ -160,6 +160,7 @@ const SignUp = () => {
                     onChange={(e) => { setEmail(e.target.value) }}
                 />
             </FormControl>
+
             <FormControl id="password" isRequired>
                 <FormLabel>Password</FormLabel>
                 <InputGroup size="md">
@@ -175,6 +176,7 @@ const SignUp = () => {
                     </InputRightElement>
                 </InputGroup>
             </FormControl>
+
             <FormControl id="password" isRequired>
                 <FormLabel>Confirm Password</FormLabel>
                 <InputGroup size="md">
@@ -190,6 +192,7 @@ const SignUp = () => {
                     </InputRightElement>
                 </InputGroup>
             </FormControl>
+            
             <FormControl id="pic">
                 <FormLabel>Upload your Picture</FormLabel>
                 <Input

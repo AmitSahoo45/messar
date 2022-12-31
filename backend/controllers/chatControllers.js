@@ -175,12 +175,8 @@ const addToGroup = asyncHandler(async (req, res) => {
 
     const added = await Chat.findByIdAndUpdate(
         chatId,
-        {
-            $push: { users: userId },
-        },
-        {
-            new: true,
-        }
+        {$push: { users: userId }},
+        {new: true}
     )
         .populate("users", "-password")
         .populate("groupAdmin", "-password");
